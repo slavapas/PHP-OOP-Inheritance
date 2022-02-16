@@ -17,7 +17,7 @@ class Product
 
   public function getProduct()
   {
-    return "\n Name: {$this->name} \n
-            Price: {$this->price} \n";
+    return "Name: {$this->name} \n\r
+            Price: {$this->price} \n\r";
   }
 }
